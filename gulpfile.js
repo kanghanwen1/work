@@ -39,7 +39,9 @@ gulp.task('html', function () {
 //gulp-imagemin
 var images = require('gulp-imagemin')
 gulp.task('images',function(){
-    gulp.src(['src/images/*.jpg'])
+     gulp.src(['./src/images/*.png', './src/images/*.jpg', './src/images/*.gif', './src/images/*.svg'])
+    // gulp.src(['src/images/*.jpg', 'src/images/*.png'])
+    // gulp.src('src/images/*.{jpg,png,gif}')
     .pipe(images())
     .pipe(gulp.dest('dist/images'))
     .pipe(browserSync.reload({
@@ -48,10 +50,10 @@ gulp.task('images',function(){
 })
 
 var js = require('gulp-uglify');
-var con = require('gulp-concat')
+// var con = require('gulp-concat')
 gulp.task('js',function(){
     gulp.src('./src/js/*.js')
-    .pipe(con('all.js'))
+    // .pipe(con('all.js'))
     .pipe(js())
     .pipe(gulp.dest('dist/js'))
     .pipe(browserSync.reload({
@@ -76,8 +78,8 @@ gulp.task('servers', function() {
 
     gulp.watch('src/css/*.scss', ['sass'])
     gulp.watch('src/*.html', ['html'])
-    gulp.watch('src/images/', ['images'])
-    gulp.watch('src/js/', ['js'])
+    gulp.watch('src/images/*.png', ['images'])
+    gulp.watch('src/js/*.js', ['js'])
 });
 
 gulp.task('default',['sass', 'html', 'images', 'js', 'servers'])

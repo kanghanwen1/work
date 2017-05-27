@@ -1,0 +1,88 @@
+{
+    "errno": 0,
+    "errmsg": "OK",
+    "result": {
+        "product_list": [
+            {
+                "brand_id": "2",
+                "model_id": "261",
+                "title": "苹果iPhone 6S",
+                "price": 3499,
+                "selling_point": "64G大容量，告别存储空间不足",
+                "explain": "限时抢购",
+                "content": "",
+                "link_url": "http://bang.360.cn/liangpin/product?product_id=26870",
+                
+                    "old": "http://p0.qhmsg.com/t0161b55808433f15fa.jpg",
+                    "big": "http://p0.qhmsg.com/t019d89a43480746c88.jpg",
+                    "mid": "http://p0.qhmsg.com/t010af81ab858458035.jpg",
+                    "min": "http://p0.qhmsg.com/t01e405e60341821b06.jpg"
+                
+            },
+            {
+                "brand_id": "4",
+                "model_id": "549",
+                "title": "华为p9",
+                "price": 1899,
+                "selling_point": "后置1200万徕卡双摄像头",
+                "explain": "比新机便宜1000元",
+                "content": "",
+                "link_url": "http://bang.360.cn/liangpin/search?brand_id=4&model_id=549",
+               
+                    "old": "http://p0.qhmsg.com/t013246b14aed206b50.jpg",
+                    "big": "http://p0.qhmsg.com/t0169002747548f4587.jpg",
+                    "mid": "http://p0.qhmsg.com/t01f5bb3dba515cdd0f.jpg",
+                    "min": "http://p0.qhmsg.com/t011d1e4b845429aec7.jpg"
+                
+            },
+            {
+                "brand_id": "2",
+                "model_id": "97",
+                "title": "苹果iPhone 6",
+                "price": 1799,
+                "selling_point": "最高性价比苹果机",
+                "explain": "9成新，5折价",
+                "content": "",
+                "link_url": "http://bang.360.cn/liangpin/search?brand_id=2&model_id=97",
+               
+                    "old": "http://p0.qhmsg.com/t01bd4582509105ff77.jpg",
+                    "big": "http://p0.qhmsg.com/t010ab1f5efb21f7035.jpg",
+                    "mid": "http://p0.qhmsg.com/t01a06d2dc74f19c28c.jpg",
+                    "min": "http://p0.qhmsg.com/t0195ab5df1e5434b30.jpg"
+                
+            },
+            {
+                "brand_id": "22",
+                "model_id": "523",
+                "title": "oppoR9",
+                "price": 1899,
+                "selling_point": "充电5分钟，通话2小时",
+                "explain": "限时优惠",
+                "content": "",
+                "link_url": "http://bang.360.cn/liangpin/search?sort=price_up&brand_id=22&model_id=523",
+               
+                    "old": "http://p0.qhmsg.com/t0126f147f68756d087.jpg",
+                    "big": "http://p0.qhmsg.com/t016d39af18e1358b34.jpg",
+                    "mid": "http://p0.qhmsg.com/t01847ebf4a9abdbcca.jpg",
+                    "min": "http://p0.qhmsg.com/t0105f38aa1346c542c.jpg"
+                
+            },
+            {
+                "brand_id": "2",
+                "model_id": "98",
+                "title": "苹果iPhone 6 Plus",
+                "price": 2199,
+                "selling_point": "超值大屏机",
+                "explain": "限时优惠",
+                "content": "",
+                "link_url": "http://bang.360.cn/liangpin/search?sort=price_up&brand_id=2&model_id=98",
+               
+                    "old": "http://p0.qhmsg.com/t01eca8af0f18cf6503.jpg",
+                    "big": "http://p0.qhmsg.com/t01bd9250b032773849.jpg",
+                    "mid": "http://p0.qhmsg.com/t0113c9cce210972162.jpg",
+                    "min": "http://p0.qhmsg.com/t01d12779eb311b6557.jpg"
+                
+            }
+        ]
+    }
+}

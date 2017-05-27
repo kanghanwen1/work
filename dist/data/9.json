@@ -1,0 +1,89 @@
+{
+    "errno": 0,
+    "errmsg": "OK",
+    "result": {
+        "products": [
+            {
+                "product_id": "10135",
+                "product_name": "苹果 iPhone6 16G 金色 国行全网通 9新",
+                "stock_nums": "48",
+                "cost_price": 3699,
+                "pledge_amount": 2599,
+                "thum_img": "http://p3.qhmsg.com/t01f5575883be765e32.png",
+                "strategy_price": {
+                    "30": 350,
+                    "60": 450,
+                    "90": 549,
+                    "120": 599,
+                    "150": 649,
+                    "180": 699,
+                    "210": 749,
+                    "240": 799,
+                    "270": 849,
+                    "300": 899,
+                    "330": 949,
+                    "365": 999
+                }
+            }
+        ],
+        "attr_groups": [
+            {
+                "attr_id": 2,
+                "attr_name": "容量",
+                "attr_value_list": [
+                    {
+                        "attr_value_id": "2",
+                        "attr_value_desc": "16G"
+                    }
+                ]
+            },
+            {
+                "attr_id": 4,
+                "attr_name": "颜色",
+                "attr_value_list": [
+                    {
+                        "attr_value_id": "8",
+                        "attr_value_desc": "金色"
+                    }
+                ]
+            },
+            {
+                "attr_id": 6,
+                "attr_name": "渠道",
+                "attr_value_list": [
+                    {
+                        "attr_value_id": "16",
+                        "attr_value_desc": "国行"
+                    }
+                ]
+            },
+            {
+                "attr_id": 8,
+                "attr_name": "成色",
+                "attr_value_list": [
+                    {
+                        "attr_value_id": "22",
+                        "attr_value_desc": "9成新"
+                    }
+                ]
+            }
+        ],
+        "sku_map_product": {
+            "2_8_16_22": "10135"
+        },
+        "treaty_days": {
+            "30": "1个月",
+            "60": "2个月",
+            "90": "3个月",
+            "120": "4个月",
+            "150": "5个月",
+            "180": "6个月",
+            "210": "7个月",
+            "240": "8个月",
+            "270": "9个月",
+            "300": "10个月",
+            "330": "11个月",
+            "365": "1年"
+        }
+    }
+}

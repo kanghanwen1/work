@@ -1,0 +1,473 @@
+*{margin:0;padding:0;}
+$mainCol:#F6F6F6;
+$mainCol2:#118855;
+a{text-decoration:none;color:gray;cursor: pointer;
+	&:hover{
+	    border-bottom: 1px solid $mainCol;
+    }
+}
+h3{font-size: 24px;}
+ul{list-style: none;}
+.clear:after{
+    content: '.';
+    height: 0px;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.c-wrap{min-width: 1200px;}
+/*导航*/
+.e-head-nav{
+	width:100%;
+	height: 40px;
+	background:$mainCol;
+	border-bottom:1px solid #ccc;
+	.e-main-head{
+		width:90%;
+		height: 40px;
+		line-height: 40px;
+		margin:0 5%;
+		font-size: 16px;
+		p:nth-child(1){
+			float: left;
+		}
+		p:nth-child(2){
+			float: right;
+		}
+		p{
+			a{
+				margin-right: 10px;
+			}
+		}
+	}
+}
+/*轮播*/
+/*轮播一*/
+.swiper-container {
+	width:100%;
+    height:250px;
+    .swiper-wrapper{
+    	.swiper-slide{
+		     display: flex;
+		     justify-content: center;
+		     align-items: center;
+		     img{
+		     	width: 100%;
+		     	height: 100%;
+		     }
+    	}
+    } 
+}
+.c-main-content{
+	width:80%;
+	margin:0 10%;
+	/*型号*/
+	.c-nav-ser{
+		height: 73px;
+		line-height: 73px;
+	}
+	.c-shu{
+		float: left;
+		span{
+			display: inline-block;
+			width:4px;
+			height: 30px;
+	        background: #118855;
+	        vertical-align: middle;
+	        margin-right: 20px;
+		}
+     }
+	.c-search{
+		float: right;
+		input{
+			width:240px;
+			height: 33px;
+			border:2px solid #118855;
+			outline: none;
+		}
+		span{
+			background: #118855;
+	        padding:10px 18px 11px 18px;
+			color:white;
+		}
+	}
+	/*tab*/
+	.c-tab{
+		display: flex;
+		justify-content: space-around;
+		div{
+			flex: 1;
+			text-align: center;
+			border:1px solid #ccc;
+			height: 38px;
+			font-size: 16px;
+			line-height: 38px;
+		}
+	}
+	/*显示切换*/
+	.c-cellphone-ico{
+		width:89%;
+		margin:0 6.5%;
+		margin-top: 20px;
+		border: 1px solid #ccc;
+		span{
+		    background: url(https://p.ssl.qhimg.com/t01499b6b084281d176.png) no-repeat 0 0;
+		    border: 1px solid #E9E9E9;
+		    border-top: 0;
+		    border-right: 0;
+		    cursor: pointer;
+		    display: block;
+		    float: left;
+		    height: 48px;
+		    width: 105px;			
+		}
+		.ico{
+			background: url('');
+		}
+		.ico-2{
+			background-position: 0 -50px;
+		}
+		.ico-3{
+			background-position: 0 -200px;
+		}
+		.ico-4{
+			background-position: 0 -100px;
+		}
+		.ico-5{
+			background-position: 0 -250px;
+		}
+		.ico-6{
+			background-position: 0 -350px;
+		}
+		.ico-7{
+			background-position: 0 -750px;
+		}
+		.ico-8{
+			background-position: 0 -150px;
+		}
+		.ico-9{
+			background-position: 0 -800px;
+		}
+		.ico-21{
+			background-position: 0 -450px;
+		}
+		.ico-22{
+			background-position: 0 -950px;
+		}
+		.ico-23{
+			background-position: 0 -650px;
+		}
+		.ico-24{
+			background-position: 0 -550px;
+		}
+		.ico-25{
+			background-position: 0 -500px;
+		}
+		.ico-26{
+			background-position: 0 -1050px;
+		}
+		.ico-27{
+			background-position: -107px 0;
+		}
+		.ico-28{
+			background-position: 0 -400px;
+		}
+		.ico-29{
+			background-position: 0 -1200px;
+		}
+		.ico-31{
+			background-position: 0 -1100px;
+		}
+		.ico-32{
+			background-position: 0 -600px;
+		}
+		.ico-33{
+			background-position: 0 -1000px;
+		}
+		.ico-34{
+			background-position: -107px -100px;
+		}
+		.ico-35{
+			background-position: -107px -50px;
+		}
+		.ico-36{
+			background-position: 0 -850px;
+		}
+		.ico-37{
+			background-position: 0 -700px;
+		}
+		.ico-38{
+			background-position: 0 -1150px;
+		}
+		.ico-39{
+			background-position: 0 -300px;
+		}
+		.ico-41{
+			background-position: -107px -150px;
+		}
+		.ico-49{
+			background-position: 0 -1250px;
+		}
+
+
+	}
+	/*pcs切换*/
+	.pcs{
+		display: none;
+		ul{
+			width:100%;
+			.xtli{
+				width:23%;
+				margin:10px 1%;
+				float: left;
+				height: 74px;
+				line-height: 74px;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+				text-align: center;
+				img{
+					width:60px;
+					height: 60px;
+					vertical-align: middle;
+				}
+			}
+		}
+	}
+	.c-cellphone-pic{
+		ul{
+			li{
+				width:23%;
+				margin:10px 1%;
+				height: 74px;
+				float: left;
+				border:1px solid #ccc;
+				box-sizing: border-box;
+				text-align: center;
+				div{
+					width:60px;
+					height:60px;
+					margin:3px 10px;
+					float: left;
+					img{
+						width:60px;
+						height:60px;
+					} 
+					.xtp{
+						width:29.5px;
+						height: 60px;
+					}
+				}
+				h5{
+					width:100px;
+					font-weight: normal;
+					line-height: 30px;
+					float: left;
+					span{
+						color:red;
+					}
+				}
+			}
+		}
+	}
+	/*轻松回收*/
+	.c-cellphone-mess{
+		background: url('https://p.ssl.qhimg.com/t01e76240aafc618626.png') no-repeat center 0;
+	    color: #6A6A6A;
+	    font-size: 16px;
+	    margin-top: 15px;
+	    padding: 165px 0 5px;
+	    text-align: center;
+	}
+	/*city*/
+	.c-txt{
+		font-size: 16px;
+		text-align: center;
+	}
+	/*服务承诺*/
+	.c-cellphone-prom{
+		background: url(https://p.ssl.qhimg.com/t01257cbfeaab34408e.png) no-repeat right 0;
+	    height: 130px;
+	    text-align: center;
+	}
+	/*用户评价*/
+	.c-user-eval{
+		/*height: 156px;*/
+		border:1px solid #ccc;
+		.head{
+			line-height: 30px;
+			padding-left: 24px;
+		}
+		.middle{
+			h1{
+				color:#72C8FF;
+				font-size: 50px;
+				float: left;
+				text-indent: 24px;
+			}
+			ul{
+				width:650px;
+				height: 47px;
+				display: flex;
+				justify-content: space-around;
+				float: right;
+				margin-right: 200px;
+				li{
+					flex: 1;
+					height: 24px;
+					background: #ccc;
+					text-align: center;
+					p{
+						height: 24px;
+					}
+					h4{
+						font-weight: normal;
+					}
+
+				}
+			}
+		}
+		.gray{
+			display: flex;
+			margin-top: 24px;
+			border-top:1px solid #ccc;
+			background: #eee;
+			justify-content: space-around;
+			div{
+				flex: 1;
+				height: 35px;
+				line-height: 35px;
+				font-size: 14px;
+				text-align: center;
+			}
+			div:nth-child(4){
+				flex: 3;
+			}
+		}
+		/*评价语*/
+		.c-gray{
+			display: flex;
+			justify-content: space-around;
+			font-size: 12px;
+			border-bottom: 1px solid #ccc;
+			margin-bottom: 10px;
+			.odiv{
+				flex: 1;
+				margin:15px 0;
+				text-align: center;
+			}
+			div:nth-child(4){
+				flex: 3;
+				margin:50px 0;
+			}
+			.mid{
+				margin: 50px 0;
+			}
+			.star{
+				background:url(https://p.ssl.qhimg.com/t01da9335376f07ee0f.png) repeat-x;
+			    background-position: 0 -16px;
+                float: left;
+                height: 12px;
+			}
+		}
+		.c-eval{
+			width:530px;
+			height: 48px;
+			margin:0 auto;
+			color:green;
+			font-size: 20px;
+			line-height: 48px;
+			text-align: center;
+			border:1px solid green;
+		}
+	}
+}
+// @import 'index.scss';
+
+/*页面底部*/
+footer{
+    width:1200px;
+    margin:0 auto;
+    /*底部一*/
+    .foot1{
+        width:100%;
+        padding:24px 0px;
+        border-bottom:1px solid #e3e3e3;
+        display:flex;
+        div{
+            width:16.66%;
+            overflow: hidden;
+            p{
+                float:left;
+                width:43px;
+                height:43px;
+                margin-left:20px;
+                background-image: url(../img/a29.gif);
+            }
+            ul{
+                float:left;
+                margin-left:8px;
+                h3{
+                    font-size:16px;
+                    line-height:36px;
+                    color:#999999;
+                }
+                li{
+                    line-height:24px;
+                    a{
+                        color:#777777;
+                        &:hover{
+                            text-decoration:underline;
+                        };
+                    }
+                }
+            }
+            #weiul{
+                li{
+                    color:#777777;
+                    line-height: 20px;
+                }
+            }
+            &:nth-child(2){
+                p{
+                    background-image: url(../img/a29.gif);
+                    background-position: 0px -44px;
+                }
+            };
+            &:nth-child(3){
+                p{
+                    background-image: url(../img/a29.gif);
+                    background-position: 0px -88px;
+                }
+            };
+            &:nth-child(4){
+                p{
+                    background-image: url(../img/a29.gif);
+                    background-position: 0px -132px;
+                }
+            };
+            &:nth-child(5){
+                p{
+                    background-image: url(../img/a29.gif);
+                    background-position: 0px -176px;
+                }
+            };
+        }
+    }
+    /*底部2*/
+    .foot2{
+        width:100%;
+        padding: 20px 0 40px;
+        text-align: center;
+        color:#888888;
+        p{
+            line-height: 24px;
+            a{
+                color:#888888;
+                margin-left:24px;
+                &:hover{
+                    text-decoration:underline;
+                };
+            }
+        }
+    }
+}

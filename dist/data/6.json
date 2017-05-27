@@ -1,0 +1,132 @@
+{
+    "errno": 0,
+    "errmsg": "OK",
+    "result": {
+        "flash_list": [
+            {
+                "product_id": "25133",
+                "product_name": "",
+                "flash_status": "saling",
+                "flash_saling": 1,
+                "price": 999,
+                "flash_price": 819,
+                "com_price": "2288",
+                "discount": 3.6,
+                "title": "苹果 iPhone 5S",
+                "subhead": "85成新 16 G 金色",
+                "flash_start_time": "2017-05-17 00:00:00",
+                "flash_end_time": "2017-05-23 23:59:59",
+                
+                    "old": "http://p0.qhmsg.com/t0108e4356bae8fa3f5.jpg"
+                
+            },
+            {
+                "product_id": "26870",
+                "product_name": "真机实拍 保修半年",
+                "flash_status": "saling",
+                "flash_saling": 1,
+                "price": 3328,
+                "flash_price": 3128,
+                "com_price": "6088",
+                "discount": 5.1,
+                "title": "苹果 iPhone 6S",
+                "subhead": "95成新 64 G 玫瑰 金",
+                "flash_start_time": "2017-05-21 09:00:00",
+                "flash_end_time": "2017-05-23 09:00:00",
+                
+                    "old": "http://p0.qhmsg.com/t012c3dfc6185a356e3.jpg"
+                
+            },
+            {
+                "product_id": "2183137906917376",
+                "product_name": "全国联保  限量供应",
+                "flash_status": "saling",
+                "flash_saling": 1,
+                "price": 4599,
+                "flash_price": 4499,
+                "com_price": "6888",
+                "discount": 6.5,
+                "title": "苹果 iPhone 7",
+                "subhead": "95成新 128G 金色",
+                "flash_start_time": "2017-05-22 00:00:00",
+                "flash_end_time": "2017-05-24 00:00:00",
+                
+                    "old": "http://p0.qhmsg.com/t01e0f911051e081037.jpg"
+                
+            },
+            {
+                "product_id": "23394",
+                "product_name": "全国联保  限量供应",
+                "flash_status": "saling",
+                "flash_saling": 1,
+                "price": 4599,
+                "flash_price": 4499,
+                "com_price": "6888",
+                "discount": 6.5,
+                "title": "苹果 iPhone 7",
+                "subhead": "95成新 128G 亮黑色",
+                "flash_start_time": "2017-05-22 00:00:00",
+                "flash_end_time": "2017-05-24 09:00:00",
+                
+                    "old": "http://p0.qhmsg.com/t019351f5b76d7203eb.jpg"
+                
+            },
+             {
+                "product_id": "25133",
+                "product_name": "",
+                "flash_status": "saling",
+                "flash_saling": 1,
+                "price": 999,
+                "flash_price": 819,
+                "com_price": "2288",
+                "discount": 3.6,
+                "title": "苹果 iPhone 5S",
+                "subhead": "85成新 16 G 金色",
+                "flash_start_time": "2017-05-17 00:00:00",
+                "flash_end_time": "2017-05-23 23:59:59",
+                
+                    "old": "http://p0.qhmsg.com/t0108e4356bae8fa3f5.jpg"
+                
+            },
+            {
+                "product_id": "26870",
+                "product_name": "真机实拍 保修半年",
+                "flash_status": "saling",
+                "flash_saling": 1,
+                "price": 3328,
+                "flash_price": 3128,
+                "com_price": "6088",
+                "discount": 5.1,
+                "title": "苹果 iPhone 6S",
+                "subhead": "95成新 64 G 玫瑰 金",
+                "flash_start_time": "2017-05-21 09:00:00",
+                "flash_end_time": "2017-05-23 09:00:00",
+                
+                    "old": "http://p0.qhmsg.com/t012c3dfc6185a356e3.jpg"
+                
+            },
+            {
+                "product_id": "2183137906917376",
+                "product_name": "全国联保  限量供应",
+                "flash_status": "saling",
+                "flash_saling": 1,
+                "price": 4599,
+                "flash_price": 4499,
+                "com_price": "6888",
+                "discount": 6.5,
+                "title": "苹果 iPhone 7",
+                "subhead": "95成新 128G 金色",
+                "flash_start_time": "2017-05-22 00:00:00",
+                "flash_end_time": "2017-05-24 00:00:00",
+                
+                    "old": "http://p0.qhmsg.com/t01e0f911051e081037.jpg"
+                
+            }
+          
+        ],
+
+        "jingpin_list": [],
+        "flashCount": "4",
+        "time": "2017-05-22 14:56:16"
+    }
+}

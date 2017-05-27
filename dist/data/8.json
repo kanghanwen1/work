@@ -1,0 +1,110 @@
+{
+    "errno": 0,
+    "errmsg": "OK",
+    "result": [
+        {
+            "comment_id": "8494",
+            "comment_mobile": "131****568",
+            "comment_content": "我的天，除了后壳稍微有点磨痕外，这个价位真的很值。",
+            "comment_level": "5",
+            "comment_create_time": "2017-05-08",
+            "is_img": false,
+            "product_name": "魅族 【metal】 移动联通 4G/3G/2G 灰色 32 G 国行 7成新 ",
+            "product_img": "http://p0.qhmsg.com/t01a45873c63b53e3de.jpg",
+            "head_img": "http://p3.qhimg.com/t019d9e2e42b5501a3c.jpg",
+            "show_buyer_mobile": "131****568",
+            "product_info": {
+                "product_img": "http://p0.qhmsg.com/t01a45873c63b53e3de.jpg"
+            }
+        },
+        {
+            "comment_id": "8493",
+            "comment_mobile": "139****505",
+            "comment_content": "用了几天，还不错",
+            "comment_level": "5",
+            "comment_create_time": "2017-05-08",
+            "is_img": false,
+            "product_name": "苹果 【iPad Mini】 白色 16 G WIFI版 港澳台 8成新 ",
+            "product_img": "http://p0.qhmsg.com/t01bdd2a74635ba276d.jpg",
+            "head_img": "http://p3.qhimg.com/t014f1f8df74b6d0a9f.jpg",
+            "show_buyer_mobile": "139****505",
+            "product_info": {
+                "product_img": "http://p0.qhmsg.com/t01bdd2a74635ba276d.jpg"
+            }
+        },
+        {
+            "comment_id": "8491",
+            "comment_mobile": "157****785",
+            "comment_content": "质量很好，说是9成新，但是跟全新的一模一样。第一次在这儿买，体验不错",
+            "comment_level": "5",
+            "comment_create_time": "2017-05-08",
+            "is_img": true,
+            "product_name": "魅族 【PRO 6】 金色 移动联通 4G/3G/2G 64 G 国行 9成新 ",
+            "product_img": "http://p0.qhmsg.com/t01d06082b701e926d9.jpg",
+            "head_img": "http://p3.qhimg.com/t014f1f8df74b6d0a9f.jpg",
+            "imgs": [
+                {
+                    "img_id": "t01f4e2fd7d39adf841.jpg",
+                    "mini_url": "http://p5.qhmsg.com/dr/120_120_100/t01f4e2fd7d39adf841.jpg",
+                    "big_url": "http://p5.qhmsg.com/t01f4e2fd7d39adf841.jpg"
+                }
+            ],
+            "show_buyer_mobile": "157****785",
+            "product_info": {
+                "product_img": "http://p0.qhmsg.com/t01d06082b701e926d9.jpg"
+            }
+        },
+        {
+            "comment_id": "8489",
+            "comment_mobile": "185****809",
+            "comment_content": "机器挺不错的",
+            "comment_level": "5",
+            "comment_create_time": "2017-05-08",
+            "is_img": false,
+            "product_name": "苹果 【iPhone SE】 黑色 全网通 16 G 国行 85成新 ",
+            "product_img": "http://p0.qhmsg.com/t0123b89e01728f13c4.jpg",
+            "head_img": "http://p3.qhimg.com/t01ed1e1e2d225b8b86.jpg",
+            "show_buyer_mobile": "185****809",
+            "product_info": {
+                "product_img": "http://p0.qhmsg.com/t0123b89e01728f13c4.jpg"
+            }
+        },
+        {
+            "comment_id": "8488",
+            "comment_mobile": "158****664",
+            "comment_content": "太惊喜了，买的八成新，收到打开，觉得有九成！奈斯",
+            "comment_level": "5",
+            "comment_create_time": "2017-05-08",
+            "is_img": true,
+            "product_name": "苹果 【iPhone 6 Plus】 全网通 灰色 64 G 国行 8成新 ",
+            "product_img": "http://p0.qhmsg.com/t01eca8af0f18cf6503.jpg",
+            "head_img": "http://p3.qhimg.com/t01e4c1a3a87b42e564.jpg",
+            "imgs": [
+                {
+                    "img_id": "t011118fd9ae68966a1.jpg",
+                    "mini_url": "http://p4.qhmsg.com/dr/120_120_100/t011118fd9ae68966a1.jpg",
+                    "big_url": "http://p4.qhmsg.com/t011118fd9ae68966a1.jpg"
+                }
+            ],
+            "show_buyer_mobile": "158****664",
+            "product_info": {
+                "product_img": "http://p0.qhmsg.com/t01eca8af0f18cf6503.jpg"
+            }
+        },
+        {
+            "comment_id": "8487",
+            "comment_mobile": "137****652",
+            "comment_content": "成色好&nbsp;原装品质&nbsp;性价比高&nbsp;包装好&nbsp;非常满意",
+            "comment_level": "5",
+            "comment_create_time": "2017-05-08",
+            "is_img": false,
+            "product_name": "oppo 【U3】 移动 4G/3G/2G 16 G 国行 白色 9成新 ",
+            "product_img": "http://p0.qhmsg.com/t0114b7acea9e22f764.png",
+            "head_img": "http://p3.qhimg.com/t019d9e2e42b5501a3c.jpg",
+            "show_buyer_mobile": "137****652",
+            "product_info": {
+                "product_img": "http://p0.qhmsg.com/t0114b7acea9e22f764.png"
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+$(function(){$(".c-tab div").each(function(c,i){$(".c-tab div").eq(c).click(function(c){$(".c-tab div").css("background",""),$(this).css("background","blue")})})});

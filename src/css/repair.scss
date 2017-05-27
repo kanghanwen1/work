@@ -1,0 +1,115 @@
+$mainWidth:100%;
+$contentWidth:90%;
+$size12:12px;
+$size14:14px;
+$size16:16px;
+$mainColor:#8F8FA4;
+*{margin:0;padding:0;}
+body{font-size:$size12;color:$mainColor;}
+ul{list-style:none;}
+a{text-decoration:none;color:$mainColor;cursor: pointer;
+	&:hover{
+	    border-bottom: 1px solid $mainColor;
+    }
+}
+/*轮播*/
+.r-banner{
+	width:100%;
+	 .repair {
+	       width: 100%;
+	       height:392px;
+	    .swiper-slide {
+	    	width:100%;
+	        background-position: center;
+	        background-size: cover;
+		     img{
+		        width:100%; 
+		        height: 100%;
+		      }
+	    }
+	}
+}
+/*划过*/
+h3{
+	height: 84px;
+	line-height: 84px;
+	text-align: center;
+	font-size: 24px;
+}
+.r-ico{
+	width:90%;
+	margin:0 5%;
+	.huaguo{
+		display: flex;
+		justify-content: space-around;
+		li{
+			flex: 1;
+			padding:50px 0;
+			div{
+				text-align: center;
+				font-size: $size16;
+				img{
+					width:68px;
+					height: 68px;
+				}
+			}
+		}
+	}
+}
+/*显示*/
+.showText{
+	width:100%;
+	background: #F6F6F6;
+	.show{
+		width:100%;
+		padding:10px 0;
+			li{
+				width:90%;
+				margin:10px 5%;
+				display: flex;
+				justify-content: flex-start;
+				div{
+					width:20%;
+					height: 48px;
+					line-height: 48px;
+					margin-left: 10px;
+					font-size: $size16;
+					text-align: center;
+					border: 1px solid #ccc;
+					border-radius: 8px;
+					background: #fff;
+				}
+			}		
+	}
+}
+/*点击改变left*/
+.r-click{
+	width:90%;
+	margin:0 5%;
+	position: relative;
+	overflow: hidden;
+    .swiper-slide{
+    	display: flex;
+    	justify-content: space-around;
+    	.slide-item{
+    		width:20%;
+    		margin:0 1.66%;
+    		text-align: center;
+    	}
+    }
+}
+.intro {
+    background: url(https://p.ssl.qhimg.com/t018a0d4ca01a0a7b80.png) no-repeat center 0;
+    height: 218px;
+    width:100%;
+    margin-top: 1px solid #ccc;
+}
+.expert{
+	width:100%;
+	div{
+		img{
+			width:100%;
+		}
+	}
+}
+@import "index.scss";
